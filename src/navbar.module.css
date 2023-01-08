@@ -1,0 +1,6 @@
+.detailNav {
+    background-image: linear-gradient(to top,
+            rgba(0, 0, 0, 0.329),
+            rgba(80, 34, 34, 0.26)),
+        url(images/hero.png);
+}

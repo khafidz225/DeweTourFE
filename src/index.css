@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.btn-log {
+  width: 100px;
+  padding: 5px;
+  border-radius: 5px;
+}
+.bg-homepage {
+  height: 547px;
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.329),
+      rgba(80, 34, 34, 0.26)
+    ),
+    url(images/hero.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero-content {
+  background-color: none;
+  padding-top: 90px;
+  padding-left: 107px;
+}
+.title-hero {
+  font-weight: 700;
+  font-size: 64px;
+}
+.container-tour {
+  display: grid;
+  row-gap: 50px;
+  margin-left: 65px;
+  /* gap: 20px; */
+  grid-template-columns: auto auto auto;
+}
+.leaf {
+  bottom: 1px;
+  /* background-color: #bbffb1; */
+}
+.detailNav {
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.329),
+      rgba(80, 34, 34, 0.26)
+    ),
+    url(images/hero.png);
+}
